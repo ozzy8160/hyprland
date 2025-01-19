@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 
-#setting random wallpaper
-random_number=$((RANDOM % 34 + 1)) 
-swww img ~/Wallpapers/$random_number.png &
+~/.dotfiles/hypr/wallpaper.sh
 
-# you can install this by adding
-# pkgs.networkmanagerapplet to your package
-#nm-applet --indicator &
-
-#the bar
+#the bar start/restart waybar
 pkill waybar
 waybar &
