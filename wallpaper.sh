@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #set dir and count img files
-wallpaper_dir=$HOME/Wallpapers/
+wallpaper_dir=$HOME/.dotfiles/hypr/Wallpapers/
 num_files=$(awk -F"\0" '{print NF-1}' <   <(find $wallpaper_dir -maxdepth 1 -type f -print0))
 
 #generate random number using img file count
