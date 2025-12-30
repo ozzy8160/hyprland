@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-~/.dotfiles/hypr/scripts/waybar.sh
 hyprlock
+waybar > /dev/null 2>&1 &
 ~/.dotfiles/hypr/scripts/wallpaper.sh
 
