@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-if [ if $HOSTNAME = "GamingPC" ]; then
+if [ $HOSTNAME = "GamingPC" ]; then
   steam 
   sunshine 
-  jellyfin-mpv-shim 
+  delfin 
 fi
